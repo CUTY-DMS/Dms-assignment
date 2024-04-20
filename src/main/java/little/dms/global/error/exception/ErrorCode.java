@@ -20,19 +20,8 @@ public enum ErrorCode {
     WRITER_MISMATCH(403, "Writer mismatch"),
     ACCOUNT_ID_ALREADY_EXISTS(409, "AccountId already exists"),
 
-    //admin
-    CODE_MISMATCH(404,"Code mismatch"),
-    NOT_ADMIN(403, "Not admin"),
-
     //petition
-    PETITION_NOT_FOUND(404, "Petition not found"),
-
-    //ban
-    BAN_NOT_FOUND(404, "Ban not found"),
-    BANNED_USER(403, "Banned User"),
-
-    //report
-    REPORT_NOT_FOUND(404, "Report not found"),
+    BOARD_NOT_FOUND(404, "Board not found"),
 
     //image
     IMAGE_UPLOAD_FAIL(400, "Image upload fail"),
